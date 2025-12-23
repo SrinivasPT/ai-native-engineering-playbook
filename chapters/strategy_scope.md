@@ -106,6 +106,13 @@ Most teams get stuck at “autocomplete plus vibes.” This model gives you a sa
 - Will CI/tooling block architectural drift automatically?
 - Do tests/logs provide enough instruction for the agent to self-correct?
 
+## Sample Artifacts
+
+- Start here: [../artifacts/README.md](../artifacts/README.md)
+- Copilot/agent instructions: [../artifacts/copilot-instructions.md](../artifacts/copilot-instructions.md)
+- Repo map template: [../artifacts/MAP.md](../artifacts/MAP.md)
+- Forbidden list template: [../artifacts/FORBIDDEN.md](../artifacts/FORBIDDEN.md)
+
 ---
 
-← [Back to Table of Contents](main.md)
+← [Back to Table of Contents](../main.md)

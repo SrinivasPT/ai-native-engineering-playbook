@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Template pre-commit hook.
+# Customize commands to match your repo.
+
+echo "pre-commit: running checks..."
+
+# Filename lint (requires ls-lint installed)
+if command -v ls-lint >/dev/null 2>&1; then
+  ls-lint
+else
+  echo "pre-commit: ls-lint not installed; skipping"
+fi
+
+# Architecture linter (Python example)
+if command -v python >/dev/null 2>&1 && [ -f "artifacts/linters/arch_linter.py" ]; then
+  python artifacts/linters/arch_linter.py --root src
+else
+  echo "pre-commit: arch_linter not runnable; skipping"
+fi
+
+echo "pre-commit: OK"

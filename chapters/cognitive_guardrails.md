@@ -128,6 +128,13 @@ If an agent hallucinates `rm -rf`, it shouldn’t have the permissions to execut
 - Are red zones explicitly marked in `MAP.md`?
 - Are agents scoped by permissions/tools based on task risk?
 
+## Sample Artifacts
+
+- Forbidden list template: [../artifacts/FORBIDDEN.md](../artifacts/FORBIDDEN.md)
+- Architecture linter (Python example): [../artifacts/linters/arch_linter.py](../artifacts/linters/arch_linter.py)
+- CODEOWNERS template (review gates): [../artifacts/CODEOWNERS](../artifacts/CODEOWNERS)
+- Copilot/agent instruction template: [../artifacts/copilot-instructions.md](../artifacts/copilot-instructions.md)
+
 ---
 
-← [Back to Table of Contents](main.md)
+← [Back to Table of Contents](../main.md)

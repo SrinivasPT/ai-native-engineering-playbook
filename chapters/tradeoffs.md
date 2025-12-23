@@ -49,6 +49,10 @@ Good conventions are boring.
 
 **Mitigation:** adopt incrementally using the [90-Day Adoption Path](adoption_path.md) so you don’t big-bang restructure.
 
+## Sample Artifacts
+
+- Working templates index: [../artifacts/README.md](../artifacts/README.md)
+
 ---
 
-← [Back to Table of Contents](main.md)
+← [Back to Table of Contents](../main.md)

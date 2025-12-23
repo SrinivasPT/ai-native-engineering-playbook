@@ -25,6 +25,10 @@ If you want to apply this immediately:
 
 Then follow the [90-Day Adoption Path](adoption_path.md) to scale safely.
 
+## Sample Artifacts
+
+- Templates index: [artifacts/README.md](artifacts/README.md)
+
 ---
 
 ← [Back to Table of Contents](main.md)

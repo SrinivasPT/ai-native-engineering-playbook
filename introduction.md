@@ -96,6 +96,13 @@ Plus explicit constraints and intent:
 
 Result: the agent doesn’t guess where to edit; it follows a map and laws.
 
+## Sample Artifacts
+
+- Working templates index: [artifacts/README.md](artifacts/README.md)
+- Repo map template: [artifacts/MAP.md](artifacts/MAP.md)
+- Forbidden list template: [artifacts/FORBIDDEN.md](artifacts/FORBIDDEN.md)
+- Copilot/agent instructions: [artifacts/copilot-instructions.md](artifacts/copilot-instructions.md)
+
 ---
 
 ← [Back to Table of Contents](main.md)

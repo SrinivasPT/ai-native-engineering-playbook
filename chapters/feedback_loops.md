@@ -131,6 +131,13 @@ If you don’t understand the code, you don’t own it.
 - Do you have at least two personas: builder + auditor?
 - Is the local feedback loop fast and deterministic?
 
+## Sample Artifacts
+
+- Personas (Builder/Auditor/Enforcer): [../artifacts/personas/](../artifacts/personas/)
+- AI-readable test failures: [../artifacts/testing/ai_readable_test_failures.md](../artifacts/testing/ai_readable_test_failures.md)
+- Logging schema example: [../artifacts/logging/event.schema.json](../artifacts/logging/event.schema.json)
+- CI template: [../artifacts/ci/github-actions/ci.yml](../artifacts/ci/github-actions/ci.yml)
+
 ---
 
-← [Back to Table of Contents](main.md)
+← [Back to Table of Contents](../main.md)

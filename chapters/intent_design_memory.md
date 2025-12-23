@@ -132,6 +132,11 @@ Old code is poison. Dead experiments are hallucinations waiting to happen.
 - Are deprecated patterns and dead code removed (or clearly quarantined)?
 - Is “intent rot” prevented by updating intent when behavior changes?
 
+## Sample Artifacts
+
+- ADR-lite decision template: [../artifacts/decisions/000_template.md](../artifacts/decisions/000_template.md)
+- Intent header template: [../artifacts/intent_headers/intent_header_template.md](../artifacts/intent_headers/intent_header_template.md)
+
 ---
 
-← [Back to Table of Contents](main.md)
+← [Back to Table of Contents](../main.md)

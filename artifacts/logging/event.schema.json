@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/event.schema.json",
+  "title": "LogEvent",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["event", "severity", "timestamp"],
+  "properties": {
+    "event": { "type": "string", "minLength": 1 },
+    "severity": { "type": "string", "enum": ["debug", "info", "warn", "error"] },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "code_path": { "type": "string" },
+    "request_id": { "type": "string" },
+    "user_id": { "type": "string" },
+    "reason": { "type": "string" }
+  }
+}

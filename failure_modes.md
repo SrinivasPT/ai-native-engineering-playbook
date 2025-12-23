@@ -74,6 +74,11 @@ This chapter is a debugging guide. If your agent program is producing chaos, fin
 - add a single local command to run the core loop
 - automate formatting and lint fixes
 
+## Sample Artifacts
+
+- AI-readable test failures examples: [artifacts/testing/ai_readable_test_failures.md](artifacts/testing/ai_readable_test_failures.md)
+- CI workflow template: [artifacts/ci/github-actions/ci.yml](artifacts/ci/github-actions/ci.yml)
+
 ---
 
 ← [Back to Table of Contents](main.md)

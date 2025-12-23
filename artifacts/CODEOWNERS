@@ -1,0 +1,11 @@
+# CODEOWNERS (Template)
+# Place this file at: .github/CODEOWNERS
+# This example is here as a template.
+
+# Everyone can review by default
+* @your-org/engineering
+
+# Red zones
+/core/auth/ @your-org/security-owners
+/infra/secrets/ @your-org/security-owners
+/features/billing/ @your-org/billing-owners

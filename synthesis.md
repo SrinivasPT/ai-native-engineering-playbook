@@ -39,6 +39,10 @@ Answer these quickly:
 If you answered “no” to more than two, your next step is not “more autonomy.”
 Your next step is to tighten structure and feedback.
 
+## Sample Artifacts
+
+- Templates index: [artifacts/README.md](artifacts/README.md)
+
 ---
 
 ← [Back to Table of Contents](main.md)

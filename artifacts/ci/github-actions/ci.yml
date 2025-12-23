@@ -1,0 +1,41 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Optional: Node setup if you run JS tooling
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Optional: Python setup if you run Python tooling
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Filename lint (ls-lint)
+        run: |
+          if command -v ls-lint >/dev/null 2>&1; then
+            ls-lint
+          else
+            echo "ls-lint not installed; skipping"
+          fi
+
+      - name: Architecture linter (Python example)
+        run: |
+          if [ -f artifacts/linters/arch_linter.py ] && [ -d src ]; then
+            python artifacts/linters/arch_linter.py --root src
+          else
+            echo "arch_linter or src not found; skipping"
+          fi

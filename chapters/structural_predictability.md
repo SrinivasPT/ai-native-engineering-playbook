@@ -121,6 +121,13 @@ You’re “done” with this chapter when:
 - CI blocks new files that violate conventions.
 - `MAP.md` is short, accurate, and names boundaries clearly.
 
+## Sample Artifacts
+
+- Repo map template: [../artifacts/MAP.md](../artifacts/MAP.md)
+- Filename lint config: [../artifacts/ls-lint/.ls-lint.yml](../artifacts/ls-lint/.ls-lint.yml)
+- Pre-commit hook templates: [../artifacts/hooks/README.md](../artifacts/hooks/README.md)
+- CI template: [../artifacts/ci/github-actions/ci.yml](../artifacts/ci/github-actions/ci.yml)
+
 ---
 
-← [Back to Table of Contents](main.md)
+← [Back to Table of Contents](../main.md)

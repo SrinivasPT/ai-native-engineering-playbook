@@ -1,0 +1,24 @@
+ls:
+  # Example repo layout. Adjust folders and case rules to match your repo.
+  src:
+    .dir: snake_case
+    core:
+      .dir: snake_case
+    features:
+      .dir: snake_case
+      .file: snake_case
+    infra:
+      .dir: snake_case
+    api:
+      .dir: snake_case
+
+ignore:
+  - .git
+  - node_modules
+  - dist
+  - build
+  - .venv
+
+# Notes:
+# - ls-lint supports several presets (kebab-case, snake_case, etc.).
+# - Treat this as a starting point; tailor to your repo’s layout.

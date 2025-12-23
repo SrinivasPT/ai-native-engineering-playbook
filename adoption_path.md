@@ -83,6 +83,12 @@ If you skip the foundation steps, you will create a chaos engine.
 - Time-to-green for a typical agent change decreases.
 - PR sizes shrink.
 
+## Sample Artifacts
+
+- Templates index: [artifacts/README.md](artifacts/README.md)
+- CI workflow template: [artifacts/ci/github-actions/ci.yml](artifacts/ci/github-actions/ci.yml)
+- Hooks templates: [artifacts/hooks/README.md](artifacts/hooks/README.md)
+
 ---
 
 ← [Back to Table of Contents](main.md)
