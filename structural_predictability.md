@@ -120,3 +120,7 @@ You’re “done” with this chapter when:
 - A new engineer can locate a feature’s logic in < 60 seconds.
 - CI blocks new files that violate conventions.
 - `MAP.md` is short, accurate, and names boundaries clearly.
+
+---
+
+← [Back to Table of Contents](main.md)

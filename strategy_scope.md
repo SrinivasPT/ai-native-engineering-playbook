@@ -105,3 +105,7 @@ Most teams get stuck at “autocomplete plus vibes.” This model gives you a sa
 - Are critical invariants documented close to the code that enforces them?
 - Will CI/tooling block architectural drift automatically?
 - Do tests/logs provide enough instruction for the agent to self-correct?
+
+---
+
+← [Back to Table of Contents](main.md)

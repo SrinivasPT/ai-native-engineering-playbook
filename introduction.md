@@ -95,3 +95,7 @@ Plus explicit constraints and intent:
 - Test failure message: “If this fails, check idempotency handling and retry path.”
 
 Result: the agent doesn’t guess where to edit; it follows a map and laws.
+
+---
+
+← [Back to Table of Contents](main.md)

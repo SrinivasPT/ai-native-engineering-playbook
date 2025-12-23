@@ -24,3 +24,7 @@ If you want to apply this immediately:
 4. Upgrade one test failure message into an AI-readable fix prompt.
 
 Then follow the [90-Day Adoption Path](adoption_path.md) to scale safely.
+
+---
+
+← [Back to Table of Contents](main.md)

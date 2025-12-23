@@ -127,3 +127,7 @@ If an agent hallucinates `rm -rf`, it shouldn’t have the permissions to execut
 - Does `FORBIDDEN.md` exist and match actual team standards?
 - Are red zones explicitly marked in `MAP.md`?
 - Are agents scoped by permissions/tools based on task risk?
+
+---
+
+← [Back to Table of Contents](main.md)

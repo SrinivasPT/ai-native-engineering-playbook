@@ -131,3 +131,7 @@ Old code is poison. Dead experiments are hallucinations waiting to happen.
 - Are time/randomness/state dependencies injected (not hidden globals)?
 - Are deprecated patterns and dead code removed (or clearly quarantined)?
 - Is “intent rot” prevented by updating intent when behavior changes?
+
+---
+
+← [Back to Table of Contents](main.md)

@@ -48,3 +48,7 @@ Good conventions are boring.
 **What you get:** compounding returns: fewer regressions, faster onboarding, and more reliable automation.
 
 **Mitigation:** adopt incrementally using the [90-Day Adoption Path](adoption_path.md) so you don’t big-bang restructure.
+
+---
+
+← [Back to Table of Contents](main.md)

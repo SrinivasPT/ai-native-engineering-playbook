@@ -38,3 +38,7 @@ Answer these quickly:
 
 If you answered “no” to more than two, your next step is not “more autonomy.”
 Your next step is to tighten structure and feedback.
+
+---
+
+← [Back to Table of Contents](main.md)

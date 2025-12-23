@@ -130,3 +130,7 @@ If you don’t understand the code, you don’t own it.
 - Are logs structured and stable (machine-readable)?
 - Do you have at least two personas: builder + auditor?
 - Is the local feedback loop fast and deterministic?
+
+---
+
+← [Back to Table of Contents](main.md)

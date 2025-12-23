@@ -82,3 +82,7 @@ If you skip the foundation steps, you will create a chaos engine.
 - Red-zone changes become deliberate and reviewed.
 - Time-to-green for a typical agent change decreases.
 - PR sizes shrink.
+
+---
+
+← [Back to Table of Contents](main.md)
